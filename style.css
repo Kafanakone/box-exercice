@@ -1,0 +1,88 @@
+#conteneur{
+    width: 1350px;
+    height: 550px;
+    overflow: hidden;
+}
+/*  start Box-top*/
+.gtable-top{
+    display: flex;
+}
+#conteneur .gtable-top{
+    justify-content: center;
+}
+.mini_table1-1{
+    border: 1px #000 solid;
+    background-color: orange;
+}
+.mini_table1-2{
+    border: 1px #000 solid;
+    background-color: #fff;
+}
+.mini_table1-3{
+    border: 1px #000 solid;
+    background-color: green;
+}
+/*  End Box-top*/
+
+/*  start Box-left*/
+.gtable-left{
+    display: flex;
+    float: left;
+    flex-direction: column-reverse;
+}
+.mini_table2-1{
+    border: 1px #000 solid;
+    background-color: orange;
+}
+.mini_table2-2{
+    border: 1px #000 solid;
+    background-color: #fff;
+}
+.mini_table2-3{
+    border: 1px #000 solid;
+    background-color: green;
+}
+/*  End Box-left*/
+
+ /*start Box-right*/
+.gtable-right{ 
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+.mini_table3-1{
+    border: 1px #000 solid;
+    background-color: orange;
+}
+.mini_table3-2{
+    border: 1px #000 solid;
+    background-color: #fff;
+}
+.mini_table3-3{
+    border: 1px #000 solid;
+    background-color: green;
+ } 
+ /* End Box-right */
+
+ /* start Box-bottom */
+.gtable-bottom{
+    margin-top: 346px;
+    margin-left: 520px; 
+    display: flex;
+    /* justify-content: end; */
+}
+.mini_table4-1{
+    justify-content: end;
+    border: 1px #000 solid;
+    background-color: orange;
+}
+.mini_table4-2{
+    border: 1px #000 solid;
+    background-color: #fff;
+}
+.mini_table4-3{
+    border: 1px #000 solid;
+    background-color: green;
+}
+ /* End Box-bottom */
+
