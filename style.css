@@ -86,3 +86,25 @@
 }
  /* End Box-bottom */
 
+ /* start Box-center */
+.gtable-center{
+    margin-top: -330px;
+    margin-left: 520px; 
+    display: flex;
+    /* justify-content: end; */
+}
+.mini_table5-1{
+    justify-content: end;
+    border: 1px #000 solid;
+    background-color: orange;
+}
+.mini_table5-2{
+    border: 1px #000 solid;
+    background-color: #fff;
+}
+.mini_table5-3{
+    border: 1px #000 solid;
+    background-color: green;
+}
+ /* End Box-center */
+
